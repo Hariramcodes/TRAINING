@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>PORTFOLIO OF HARIRAM</title>
+        <header>
+            <center>
+            <H1><b><u>HARIRAM</u></b></H1>
+            <h4>Gmail - hariramsri21@gmail.com &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GitHub - <a href="https://github.com/Hariramcodes">Click here</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone - +91-9790720425 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Location - Chennai, India</h4>
+            </center>
+            </header>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <style>.checked {
+                color: orange;
+              }</style>
+    </head>
+<hr>
+    <body style="background-color: slategrey;">
+        <h2>
+            <b><u>OBJECTIVE</u></b>
+        </h2>
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To kickstart my career with a challenging role in competitive
+                    and creative engineering environment, that will benefit from
+                    my creative ideas and collegiate skills will expectantly add
+                    value to organizational operations. Also bringing forth a
+                    positive and a never give up attitude in the work environment
+                    to motivate others towards success.</p>
+        <h2>
+<hr>
+            <b>
+                <u>EDUCATION</u>
+            </b>
+        </h2>
+            <p>
+                <ul>
+                    <li>B.Tech Information Technology<br/>
+                        St. Joseph's College Of Engineering<br/>
+                        2020 : present | Chennai, India<br/>
+                        CGPA : 9.18</li>
+                </ul>
+                <ul>
+                    <li>Senior Secondary<br/>
+                        St. John's Public School<br/>
+                        2020 | Chennai, India<br/>
+                        Percentage - 71.6</li>
+                </ul>
+                <ul>
+                    <li>Secondary<br/>
+                        Srimathi Sundaravalli Memorial School<br/>
+                        2018 | Chennai, India<br/>
+                        Percentage - 74.6
+                        </li>
+                </ul>
+            </p>
+<hr>
+            <h2>
+                <b>
+                    <u>SKILLS</u>
+                </b>
+            </h2>
+            <p>
+                <ol>
+                    <li>
+                <b><i>Java</i></b><br/><br/>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <p>Programming Concepts in Java, Event Handling,
+                        Networking. Used extensively in competitive programming and
+                        problem solving.</p>
+                    </li>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <li>
+
+                        <b><i>C Programming</i></b><br/><br/>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <p>Basic programming knowledge and inside out of data structures
+                            and algorithms.</p>
+                        </li>
+                </ol>
+            </p>
+    </body>
+</html>
