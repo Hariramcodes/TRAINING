@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SHOPPING</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <div class='mainnav'>
+    <div class='h2'>
+      <h2>HARICO</h2>
+    </div>
+    <div class='nav'>
+      <ul>
+        <li><a class='cool-link' href='Home.html'><i class="fas fa-home">&nbsp;</i>HOME</a></li>
+        <li><a class='cool-link' href='Aboutus.html'><i class="fas fa-home">&nbsp;</i>ABOUT US</a></li>
+
+        <li><a class='cool-link' href='Contact.html'>CONTACT</a></li>
+
+        <li><a class='cool-link' href='login.html'>LOGIN</a></li>
+      </ul>
+    </div>
+  </div>
+ 
+</header>
+
+<!-- Header End -->
+
+<!-- form start -->
+
+
+<div class="container">
+    <div class="logo">Login Here</div>
+    <div class="login-item">
+      <form class="form form-login">
+        <div class="form-field">
+          <label class="fas fa-user"></label>
+          <input id="login-username" type="text" class="form-input" placeholder="Username" required>
+        </div>
+
+        <div class="form-field">
+          <label class="fas fa-lock"></label>
+          <input id="login-password" type="password" class="form-input" placeholder="Password" required>
+        </div>
+
+        <div class="form-field">
+          <input type="submit" value="Log in">
+        </div>
+      </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- form end -->
+
+
+
+<!-- </!-- footer start --> 
+
+<footer style='margin-top:-0px'>
+<div class='quality'>
+<div><i style='font-size: 35px;' class="fa fa-exchange"></i>
+<p>EASY EXCHANGE*</p></div> 
+
+<div><i style='font-size:35px'class="fas fa-hand-holding-heart"></i>
+<p>100% HANDPICKED*</p></div>
+
+<div><i style='font-size:35px'class="fab fa-angellist"></i>
+<p>ASSURED QUALITY*</p></div>
+</div>
+</body>
+</html>
+</html>
