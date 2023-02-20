@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		#monkey {
+			width: 100px;
+			height: 100px;
+		}
+	</style>
+</head>
+<body>
+
+	<img id="monkey" src="https://em-content.zobj.net/thumbs/120/apple/325/see-no-evil-monkey_1f648.png">
+
+	<script>
+		const monkey = document.getElementById("monkey");
+        const preg=document.getElementById("preg");
+
+		monkey.addEventListener("mouseover", function() {
+                monkey.src = "https://em-content.zobj.net/thumbs/120/apple/325/hear-no-evil-monkey_1f649.png";
+		});
+
+		monkey.addEventListener("mouseout", function() {
+			monkey.src = "https://em-content.zobj.net/thumbs/120/apple/325/see-no-evil-monkey_1f648.png";
+		});
+	</script>
+
+</body>
+</html>

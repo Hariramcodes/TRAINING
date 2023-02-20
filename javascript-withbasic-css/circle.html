@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Circle Hover Example</title>
+</head>
+<body>
+	<div class="circle"></div>
+
+	<script>
+        const circle = document.querySelector(".circle");
+        circle.style.width = "100px";
+        circle.style.height = "100px";
+        circle.style.backgroundColor = "lightblue";
+        circle.style.borderRadius = "50%";
+        circle.style.transition = "all 0.2s ease-in-out";
+
+        circle.addEventListener("mouseover", function() {
+            circle.style.width = "200px";
+            circle.style.height = "200px";
+            circle.style.backgroundColor="red";
+        });
+
+        circle.addEventListener("mouseout", function() {
+        circle.style.width = "100px";
+        circle.style.height = "100px";
+        circle.style.backgroundColor="lightblue";
+        });
+    </script>
+</body>
+</html>

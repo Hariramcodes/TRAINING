@@ -1,0 +1,48 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hexadecimal color generator</title>
+	<style>
+		#container
+        {
+			margin: auto;
+    		width: 35%;
+			padding: 3%;
+    		margin-top: 10%;
+            border-radius: 50%;
+			justify-content: center;
+			display: block;
+			align-items: center;
+			text-align: center;
+			background-color: black;
+            color: white;
+		}
+		#generate
+        {
+			padding: 10px;
+		}
+	</style>
+</head>
+<body id="body">
+	<div id ="container">
+	    <h1>Color Generator</h1>
+	    <button id="generate" value="Click me" onclick="generate()">Change</button>
+	    <h3 id="code"></h3>
+	</div>
+</body>
+<script>
+	function generate()
+    {
+		var letters = "0123456789ABCDEF";
+		var color = '#';
+		for (var i = 0; i < 6; i++)
+			color += letters[(Math.floor(Math.random() * 16))];
+		var b=document.getElementById("body");
+		var p=document.getElementById("code");
+		p.innerText=color;
+		b.style.backgroundColor=`${color}`;
+	}
+</script>
+</html>

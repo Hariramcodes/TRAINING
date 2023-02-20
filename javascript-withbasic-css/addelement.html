@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dynamic Number Box</title>
+	<style>
+		.lightgreen {
+			background-color: lightgreen;
+		}
+		.lightblue {
+			background-color: lightblue;
+		}
+	</style>
+</head>
+<body>
+	<div id="container"></div>
+    <p id="blank"></p>
+
+	<script>
+		var container = document.getElementById("container");
+        var blank=document.getElementById("blank");
+		for (var i = 1; i <= 100; i++) {
+			var box = document.createElement("div");
+            box.style.width='150px';
+            box.style.height='150px';
+            box.style.fontSize='150px'
+            box.style.textAlign='center';
+            box.style.margin='10px';
+            box.textContent=i;
+			if (i % 2 === 0) {
+				box.style.backgroundColor='lightgreen';
+                box.style.color='darkblue'
+			} 
+            else 
+            {
+				box.style.backgroundColor='lightblue';
+                box.style.color='darkgreen';
+			}
+			container.appendChild(box);
+		}
+	</script>
+</body>
+</html>
