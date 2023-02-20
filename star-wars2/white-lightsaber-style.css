@@ -1,0 +1,162 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items: flex-end;
+    height:100vh;
+    font-size: 13px;
+    background: #080808;
+    margin:0;
+}
+.lightsaber{
+    margin-bottom: 1em;
+}
+.lightsaber::before{
+    content: '';
+    position: absolute;
+    background: radial-gradient(
+        circle,
+        #ffffff 0%,
+        #080808 100%
+    );
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: 0.3s;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.top, .middle, .bottom{
+    background: linear-gradient(90deg,
+    #1f1f1f 0%,
+    #1c1c1c 50%,
+    #4a4a4a 60%,
+    #1c1c1c 70%,
+    #1f1f1f 100%
+    );
+    margin: 0 auto;
+    border: #333 1px solid;
+}
+
+.bottom{
+    height:3em;
+    width: 2em;
+    background: linear-gradient(90deg,
+    #1f1f1f 0%,
+    #505050 30%,
+    #8c8c8c 50%,
+    #505050 70%,
+    #1f1f1f 100%
+    );
+}
+
+.middle{
+    width: 1.5em;
+    height: 3em;
+}
+
+.top{
+    height: 3em;
+    width: 2em;
+    position:relative;
+}
+
+.top::before, .top::after{
+    content: '';
+    position: absolute;
+    top: 10%;
+    width: 3em;
+    height: 1.2em;
+    background: linear-gradient(0deg,
+    #1f1f1f 0%,
+    #505050 30%,
+    #8c8c8c 50%,
+    #505050 70%,
+    #1f1f1f 100%
+    );
+    z-index:-1;
+}
+
+.top::before{
+    left: -2.5em;
+    transform: skew(-25deg);
+}
+
+.top::after{
+    right: -2.5em;
+    transform: skew(25deg);
+}
+
+.light{
+    width: 1.1em;
+    height: 0;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 3em 3em 0 0;
+    position: relative;
+    transition: 0.5s;
+}
+
+.light::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -1.5em;
+    width: 0;
+    height: 0.5em;
+    border-radius: 3em;
+    background: inherit;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.lightsaber:hover .light{
+    height: 32em;
+    box-shadow: 0 -10px 30px 10px white;
+    border: 2px solid white;
+    animation: flicker 0.2s infinite linear;
+}
+
+.lightsaber:hover:before{
+    opacity: 1;
+}
+
+@keyframes flicker{
+    90%{
+        box-shadow: 0 0 20px 5px black;
+    }
+    100%{
+        box-shadow: 0 0 15px 8px black;
+    }
+}
+
+img {
+    border: 1px solid white;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(90deg, blue, green);
+  }
+
+
+  .container1 {
+    width: 100%;
+    min-height: 900px;
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left;
+  }
+
+  button{
+    top: 40cm;
+    background-color: white;
+    height: 20px;
+    width: 30px;
+    color: black;
+  }
